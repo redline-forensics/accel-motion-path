@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+    <template name="AEaccelMotionPath">
+        <attribute name="time" type="maya.float">
+            <label>Current Time (frames)</label>
+        </attribute>
+
+        <attribute name="startTime" type="maya.float">
+            <label>Start Time (frames)</label>
+        </attribute>
+
+        <attribute name="lastTime" type="maya.float">
+            <label>Last Time (frames)</label>
+        </attribute>
+
+        <attribute name="startPosition" type="maya.float">
+            <label>Start Position (ft)</label>
+        </attribute>
+
+        <attribute name="startVelocity" type="maya.float">
+            <label>Start Velocity (ft/s)</label>
+        </attribute>
+
+        <attribute name="velocity" type="maya.float">
+            <label>Velocity (ft/s)</label>
+        </attribute>
+
+        <attribute name="killVelocity" type="maya.float">
+            <label>Kill Velocity (ft/s)</label>
+        </attribute>
+
+        <attribute name="acceleration" type="maya.float">
+            <label>Acceleration (ft/s/s)</label>
+        </attribute>
+
+        <attribute name="uValue" type="maya.float">
+            <label>U Value</label>
+        </attribute>
+
+        <attribute name="lastUValue" type="maya.float">
+            <label>Last U Value</label>
+        </attribute>
+
+        <attribute name="arcLength" type="maya.float">
+            <label>Arc Length (ft)</label>
+        </attribute>
+
+        <attribute name="distance" type="maya.float">
+            <label>Distance (ft)</label>
+        </attribute>
+    </template>
+
+    <view name="Anim" template="AEaccelMotionPath">
+        <property name="startTime"/>
+        <property name="startPosition"/>
+        <property name="startVelocity"/>
+        <property name="velocity"/>
+        <property name="killVelocity"/>
+        <property name="acceleration"/>
+        <property name="distance"/>
+    </view>
+
+    <view name="Debug" template="AEaccelMotionPath">
+        <property name="time"/>
+        <property name="startTime"/>
+        <property name="lastTime"/>
+        <property name="startPosition"/>
+        <property name="startVelocity"/>
+        <property name="velocity"/>
+        <property name="killVelocity"/>
+        <property name="acceleration"/>
+        <property name="uValue"/>
+        <property name="lastUValue"/>
+        <property name="arcLength"/>
+        <property name="distance"/>
+    </view>
+
+</templates>
