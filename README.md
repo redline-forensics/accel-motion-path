@@ -18,6 +18,7 @@
 * Change motion start time and start position
 * Supports all curve shapes
 * View instantaneous distance and velocity at any point along the curve
+* Automatically stop motion when velocity is below settable threshold
 
 ## Installation
 
