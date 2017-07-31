@@ -24,7 +24,7 @@
 
 1. Clone or download repository
    * Clone: ```git clone https://github.com/redline-forensics/magic-shade.git```
-   * Download: <a href="https://github.com/redline-forensics/accel-motion-path/archive/master.zip">master.zip</a>
+   * Download: <a href="https://github.com/redline-forensics/accel-motion-path/archive/master.zip">master.zip</a> and unzip
 2. Run ```Install.exe```
 3. Enable ```AccelMotionPath.py``` in Maya's Plug-in Manager (Windows - Settings/Preferences - Plug-in Manager)
 
